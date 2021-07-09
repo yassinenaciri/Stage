@@ -43,7 +43,9 @@
     "devServerPort": 9060,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Etudiant", "Encadrant"],
+    "lastLiquibaseTimestamp": 1625852551000
   },
   "git-provider": "GitHub",
   "git-company": "yassinenaciri",

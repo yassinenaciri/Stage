@@ -1,0 +1,23 @@
+
+
+entity Etudiant{
+   nom String,
+   prenom String,
+   mail String,
+   encadrant String,
+}
+
+entity Encadrant {
+	nom String,
+   prenom String,
+   mail String,
+}
+
+relationship OneToOne {
+	Etudiant{encadrant} to Encadrant
+}
+
+
+
+service all with serviceImpl 
+
